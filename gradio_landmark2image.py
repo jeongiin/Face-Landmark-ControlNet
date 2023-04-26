@@ -7,7 +7,6 @@ import gradio as gr
 import numpy as np
 import torch
 import random
-
 from pytorch_lightning import seed_everything
 from annotator.util import resize_image, HWC3
 from cldm.model import create_model, load_state_dict
